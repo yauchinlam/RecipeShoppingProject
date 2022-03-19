@@ -9,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is a test', 
+    'https://olddesignshop.com/wp-content/uploads/2013/08/OldDesignShop_PastryIgleheartPie1922.jpg'),
+    new Recipe('A Test Recipe', 'This is a test', 
     'https://olddesignshop.com/wp-content/uploads/2013/08/OldDesignShop_PastryIgleheartPie1922.jpg')
+ 
   ];
 
   constructor() { }
